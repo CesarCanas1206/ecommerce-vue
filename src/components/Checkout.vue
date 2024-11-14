@@ -1,7 +1,7 @@
 <!-- src/components/Checkout.vue -->
 <template>
     <div>
-        <h1 class="text-2xl font-bold">Checkout</h1>
+        <h1 class="text-xl font-bold">Checkout</h1>
         <form @submit.prevent="submitOrder" class="mt-4">
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium">Name</label>
