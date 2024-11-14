@@ -1,7 +1,7 @@
 <!-- src/components/ProductList.vue -->
 <template>
     <div>
-        <h1 class="text-2xl font-bold">Products</h1>
+        <h1 class="text-xl font-bold">Products</h1>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
             <div v-for="product in products" :key="product.id" class="border p-4 rounded">
                 <h2 class="font-semibold">{{ product.name }}</h2>

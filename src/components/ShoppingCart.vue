@@ -1,7 +1,7 @@
 <!-- src/components/ShoppingCart.vue -->
 <template>
     <div>
-        <h1 class="text-2xl font-bold">Shopping Cart</h1>
+        <h1 class="text-xl font-bold">Shopping Cart</h1>
         <div v-if="cart.length === 0" class="mt-4">
             <p>Your cart is empty.</p>
         </div>
