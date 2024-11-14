@@ -10,6 +10,7 @@
                 <p>{{ item.name }} - \${{ item.price.toFixed(2) }}</p>
                 <button @click="removeFromCart(item)" class="text-red-500">Remove</button>
             </div>
+            // change the name.
             <div class="mt-4">
                 <p>Total: \${{ cartTotal.toFixed(2) }}</p>
                 <button @click="checkout" class="mt-2 bg-green-500 text-white px-4 py-2 rounded">
